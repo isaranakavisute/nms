@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.form-control{
+  @apply bg-gray-700 text-white p-2 rounded-2xl w-full h-20 text-4xl
+}
+
+.btn{
+  @apply bg-indigo-500 text-white px-5 py-3 rounded-2xl
+}
