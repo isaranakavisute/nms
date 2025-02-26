@@ -5,7 +5,7 @@ export default function Page(){
     //  </div>
 
    <div className="flex h-3/4 w-3/4 flex-col items-center justify-center bg-white">
-    <div className="pb-10 text-4xl">My Layout</div>
+    <div className="pb-10 text-4xl">NMS Template</div>
     <div className="h-2/4 w-3/4 rounded-2xl bg-white">
      <div className="text-2xl">Username</div>
      <input type="text" className="form-control" />
