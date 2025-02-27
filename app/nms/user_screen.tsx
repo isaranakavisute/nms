@@ -1,13 +1,8 @@
+import Link from 'next/link';
 
-import user_screen from "./user_screen";
-import logo from "./images/logo.png";
-import Image from "next/image";
-
-export default function BackOfficeLayout({ children }: {
-    children: React.ReactNode
-}) {
- return (
-    <div className="flex flex-col">
+export default function user_screen() {
+    return (
+        <div className="flex flex-col">
          <div className="flex h-[5vh] w-full items-center justify-center bg-blue-300 text-2xl">Pay Slip Sharing Tool</div>
           <div className="flex h-[15vh] w-full flex-row border-solid border-2 items-center justify-between">
            <div className="flex h-[15vh] flex-row items-center">
@@ -30,6 +25,5 @@ export default function BackOfficeLayout({ children }: {
          <button className="text-2xl opacity-100 bg-blue-300  p-20 rounded-xl">History Search</button>
         </div>
        </div>
- );
+    );
 }
-
