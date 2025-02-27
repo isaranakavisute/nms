@@ -1,10 +1,9 @@
-import Link from 'next/link';
 import logo from "./images/new_logo.png";
 import Image from "next/image";
 
-function UserScreen() {
-    return 
-    (
+export default function UserScreen() {
+    return (
+        <div className="flex flex-col">                 
          <div className="flex h-[5vh] w-full items-center justify-center bg-blue-300 text-2xl">Pay Slip Sharing Tool</div>
           <div className="flex h-[15vh] w-full flex-row border-solid border-2 items-center justify-between">
            <div className="flex h-[15vh] flex-row items-center">
@@ -25,8 +24,7 @@ function UserScreen() {
           <button className="text-2xl opacity-100 bg-blue-300  p-20 rounded-xl">Check Slip</button>
          </div>
          <button className="text-2xl opacity-100 bg-blue-300  p-20 rounded-xl">History Search</button>
-        </div>  
-    );
+        </div>
+       </div>
+    )
 }
-
-export default UserScreen;

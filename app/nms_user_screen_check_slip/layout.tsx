@@ -8,11 +8,9 @@ export default function BackOfficeLayout({ children }: {
     children: React.ReactNode
 }) {
  return (
-    <div className="flex flex-col">
-
-        <Sidebar />
-
-    </div>
+        
+         <UserScreen />
+       
  );
 }
 
