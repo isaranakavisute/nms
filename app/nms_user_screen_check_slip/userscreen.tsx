@@ -111,7 +111,716 @@ export default function UserScreen() {
              </div> 
             </div>
            </div>
-           <div className="h-3/4 w-full bg-white flex flex-col justify-center items-center border-solid border-2">
+           <div className="h-3/4 w-full bg-white flex flex-row justify-center items-center border-solid border border-black">
+            <div className="h-full w-1/3 bg-white flex flex-col justify-center items-center border-solid border-0 border-black">
+             <div className="h-[10vh] w-full bg-white flex flex-row justify-center items-center border-solid border border-black">
+             Income
+             </div>
+             <div className="h-[80vh] w-full bg-white flex flex-col justify-start items-center border-solid border border-black">
+ 
+
+
+
+
+
+
+
+
+
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Wage
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  26.0
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  9,620.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Rental
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  1,300.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Meal
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  1300.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Meal OT
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  3,000.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Transport
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  900.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Night Shift
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  2,400.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  xx
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  xx
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  xx
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  1,720.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Diligent
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  1,500.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  OT 1.5x
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  27.60
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  1,852.45
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  OT. 2.0
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                   48.00
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                   4,440.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  OT 3.x
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Traditional
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  xx
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  AL LSD
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Other
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  xx
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}            
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+                 <div className="h-full w-1/3 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+               </div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+             </div>
+             <div className="h-[10vh] w-full bg-white flex flex-row justify-center items-center border-solid border border-black">
+              <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border border-black">
+               <div className="text-[0.50rem]">
+               Total Income
+               </div>
+              </div>
+              <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border border-black">
+               <div className="text-[0.50rem]">
+               28,032.45
+               </div>
+              </div>
+             </div>
+            </div>
+            <div className="h-full w-1/3 bg-white flex flex-col justify-center items-center border-solid border border-black">
+             <div className="h-[10vh] w-full bg-white flex flex-row justify-center items-center border-solid border border-black">
+             Deduction
+             </div>
+             <div className="h-[80vh] w-full bg-white flex flex-col justify-start items-center border-solid border border-black">
+
+
+
+
+
+
+
+
+
+
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Tax
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  SSF
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  469.00
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  xx
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Late
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Absence
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Advance
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  
+                  </div>
+                 </div>
+               </div>      
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Uniform
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  Other
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  -
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}          
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+               <div className="h-1/20 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+                 <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border-0">
+                  <div className="text-[0.50rem]">
+                  {'\u00A0'}
+                  </div>
+                 </div>
+               </div>
+
+
+
+
+
+
+
+
+
+             </div>
+             <div className="h-[10vh] w-full bg-white flex flex-row justify-center items-center border-solid border border-black">
+             
+
+             
+
+
+
+
+
+
+              <div className="h-full w-1/2 bg-white flex flex-row justify-start items-center border-solid border border-black">
+               <div className="text-[0.50rem]">
+               Total Deduction
+               </div>
+              </div>
+              <div className="h-full w-1/2 bg-white flex flex-row justify-end items-center border-solid border border-black">
+               <div className="text-[0.50rem]">
+               469.00
+               </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+             </div>
+            </div>
+            <div className="h-full w-1/3 bg-white flex flex-col justify-center items-center border-solid border border-black">
+             <div className="h-[10vh] w-full bg-white flex flex-row justify-center items-center border-solid border border-black">
+             </div>
+             <div className="h-[80vh] w-full bg-white  flex flex-row justify-center items-center border-solid border border-black"> 
+
+                
+
+               
+                
+
+                
+
+                
+
+            
+               
+                
+
+                
+
+              
+
+               
+           
+          
+
+           
+
+               
+
+                
+
+
+      
+             </div>
+             <div className="h-[10vh] w-full bg-white flex flex-row justify-center items-center border-solid border border-black">
+             </div>
+            </div>
            </div>
          </div>
          <div className="h-full w-1/4 bg-white flex flex-col justify-end items-center pb-5">
