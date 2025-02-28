@@ -48,32 +48,66 @@ export default function UserScreen() {
               PAY SLIP
              </div>
              <div className="h-2/4 w-full bg-white flex flex-row justify-center items-center border-solid border-2">
-
-
-
-
-
-
-                  <div className="h-full w-1/2 bg-white flex flex-col justify-center items-center border-solid border-2">
-                   Period:
-                   Branch: 
-                   Emp No:
-                  </div>
-                  <div className="h-full w-1/2 bg-white flex flex-col justify-center items-center border-solid border-2">
-                   <div className="text-xs text-blue-300 pl-1">
-                    Sep-24
-                    A Company
-                    1514540000741
+                  <div className="h-full w-1/2 bg-white flex flex-col justify-center items-center border-solid border-0">
+                   <div className="h-1/3 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                     <div className="text-xs">
+                      Period
+                     </div>
+                   </div>
+                   <div className="h-1/3 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                    <div className="text-xs">
+                     Branch
+                    </div>
+                   </div>
+                   <div className="h-1/3 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                    <div className="text-xs">
+                     Emp No
+                    </div>
                    </div>
                   </div>
-
-
-
-
-
-              
+                  <div className="h-full w-1/2 bg-white flex flex-col justify-center items-center border-solid border-0">
+                   <div className="h-1/3 w-full bg-white flex flex-row justify-center items-center border-solid border-0">
+                    <div className="text-[0.65rem]">
+                     Sep-24
+                    </div>
+                   </div>
+                   <div className="h-1/3 w-full bg-white flex flex-row justify-center items-center border-solid border-0">
+                    <div className="text-[0.65rem]">
+                     A Company
+                    </div>
+                   </div>
+                   <div className="h-1/3 w-full bg-white flex flex-row justify-center items-center border-solid border-0">
+                    <div className="text-[0.65rem]">
+                     151450000741
+                    </div>
+                   </div>
+                  </div>
              </div>
-             <div className="h-1/4 w-full bg-white flex flex-col justify-center items-center border-solid border-0">
+             <div className="h-1/4 w-full bg-white flex flex-row justify-center items-center border-solid border-0">
+              <div className="h-full w-1/2 bg-white flex flex-col justify-center items-center border-solid border-0">
+               <div className="h-1/2 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-xs">
+                     ID Card
+                  </div>
+               </div>
+               <div className="h-1/2 w-full bg-white flex flex-row justify-start items-center border-solid border-0">
+                  <div className="text-xs">
+                     Division
+                  </div>
+               </div>
+              </div>
+              <div className="h-full w-1/2 bg-white flex flex-col justify-center items-center border-solid border-0">
+               <div className="h-1/2 w-full bg-white flex flex-row justify-center items-center border-solid border-0">
+                  <div className="text-[0.65rem]">
+                     1-5145-4000-74-1
+                  </div>
+               </div>
+               <div className="h-1/2 w-full bg-white flex flex-row justify-center items-center border-solid border-0">
+                  <div className="text-[0.65rem]">
+                     Production
+                  </div>
+               </div>
+              </div>
              </div> 
             </div>
            </div>
